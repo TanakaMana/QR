@@ -8,4 +8,5 @@ $ mv base_project ◯◯(新しいアプリ名)
 $ bundle exec bundle install
 $ spring stop
 $ bin/spring
-$ bundle exec rake db:create```
+$ bundle exec rake db:create
+```
