@@ -1,0 +1,2 @@
+class QrsController < ApplicationController
+end
