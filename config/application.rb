@@ -6,11 +6,11 @@ Bundler.require(*Rails.groups)
 
 module RailsHinagata
   class Application < Rails::Application
-    
+
       config.to_prepare do
         Devise::SessionsController.layout 'admin_lte_2_login'
       end
-      
+
     config.active_record.raise_in_transactional_callbacks = true
 
     config.generators do |g|
