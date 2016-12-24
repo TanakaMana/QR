@@ -60,6 +60,11 @@ gem 'active_hash'
 # 管理画面
 gem 'adminlte2-rails'
 
+# QRコード
+gem 'rqrcode'
+gem 'rqrcode_png'
+gem 'rmagick', require: 'RMagick'
+
 # サーバー
 # gem 'unicorn'  実際にunicornを使う際はコメントアウトを外す
 
