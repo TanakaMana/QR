@@ -1,6 +1,6 @@
 class QrsController < ApplicationController
   before_action :set_url, only: :create
-  der index
+  def index
   end
 
   def create
@@ -8,6 +8,7 @@ class QrsController < ApplicationController
   end
 
   private
+
   def set_url
     @url = params[:url]
   end
