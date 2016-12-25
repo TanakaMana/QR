@@ -27,6 +27,7 @@ development:
 test:
   <<: *default
   database: qr_test
+<<<<<<< HEAD
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -52,3 +53,5 @@ production:
   database: rails_hinagata_production
   username: rails_hinagata
   password: <%= ENV['RAILS_HINAGATA_DATABASE_PASSWORD'] %>
+=======
+>>>>>>> add_QR
