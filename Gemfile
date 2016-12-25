@@ -58,7 +58,7 @@ gem 'paranoia'
 gem 'active_hash'
 
 # 管理画面
-gem 'adminlte2-rails'
+# gem 'adminlte2-rails'
 
 # QRコード
 gem 'rqrcode'
